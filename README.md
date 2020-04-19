@@ -1,2 +1,4 @@
 # er-ui-autotests
-playwright automation
+playwright automation project
+
+run tests from CLI: `npm run test`
