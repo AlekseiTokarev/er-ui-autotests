@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "jest": "^25.3.0",
-    "playwright": "^0.13.0"
+    "playwright": "^0.13.0",
+    "typescript": "^3.8.3"
   },
   "scripts": {
     "test": "jest"
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/AlekseiTokarev/er-ui-autotests/issues"
   },
-  "homepage": "https://github.com/AlekseiTokarev/er-ui-autotests#readme"
+  "homepage": "https://github.com/AlekseiTokarev/er-ui-autotests#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.3.0"
+  }
 }
