@@ -1,0 +1,26 @@
+{
+  "name": "er-ui-autotests",
+  "version": "1.0.0",
+  "description": "playwright automation",
+  "main": "index.js",
+  "dependencies": {
+    "playwright": "^0.13.0"
+  },
+  "devDependencies": {
+    "jest": "^25.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlekseiTokarev/er-ui-autotests.git"
+  },
+  "keywords": [],
+  "author": "ittokarev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlekseiTokarev/er-ui-autotests/issues"
+  },
+  "homepage": "https://github.com/AlekseiTokarev/er-ui-autotests#readme"
+}
