@@ -8,7 +8,7 @@ test('adds 1 + 2 to equal 3', () => {
 
 it('my first ', async () => {
 
-    const browser = await chromium.launch();
+    const browser = await chromium.launch({"headless": false});
     const context = await browser.newContext();
     const page = await context.newPage();
     await page.goto('https://jestjs.io/');
@@ -16,6 +16,6 @@ it('my first ', async () => {
     expect(title).toBe("Jest · 🃏 Delightful JavaScript Testing");
     await page.type('#search_input_react', 'type script');
     await page.keyboard.press('Enter');
-    await page.screenshot({path: `jestjs.png`});
+    await page.screenshot({path: `./output/jestjs.png`});
     browser.close();
 }, 300000);
