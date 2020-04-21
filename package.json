@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "playwright automation",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
     "playwright": "^0.13.0",
     "typescript": "^3.8.3"
