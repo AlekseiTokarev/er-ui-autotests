@@ -2,9 +2,7 @@ import {sum} from './sumts'
 import {login} from './basets'
 import {chromium} from "playwright";
 
-
 let browser;
-let page;
 
 test('adds 1 + 2 to equal 3', () => {
     expect(sum(1, 2)).toBe(3);
